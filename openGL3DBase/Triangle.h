@@ -11,6 +11,7 @@ class Triangle :
 		vertices[1] = v2;
 		vertices[2] = v3;
 		init("vertex.vs", "fragment.fs");
+
 	}
 
 	void Render()
