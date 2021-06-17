@@ -35,7 +35,7 @@ public:
 
 	void setTexture(std::string _texture);
 
-private:
+protected:
 	glm::mat4 modelMatrix;
 	Camera* camera;
 
